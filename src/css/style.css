@@ -513,11 +513,13 @@ body {
   .title--primary {
     color: #E3B873; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1241px) {
   html {
     font-size: 12px; }
   .nav__item {
-    margin-right: 1rem; } }
+    margin-right: 1rem; }
+  .contacts__button {
+    display: none; } }
 
 @media screen and (max-width: 992px) {
   .nav {
@@ -539,17 +541,22 @@ body {
   .hero__scroll-down {
     display: none; }
   .hero__content {
-    max-width: 22.86rem; }
+    margin: 0 auto;
+    width: 100%; }
+  .hero__title {
+    font-size: 2rem;
+    max-width: 30rem; }
   .hero__text {
     font-size: 1.29rem;
-    margin-bottom: 2.28rem; }
+    margin-bottom: 2.28rem;
+    max-width: 22.7rem; }
   .hero__button {
     display: block;
-    min-width: 22.86rem;
+    width: 100%;
     margin-bottom: 1.85rem; }
   .hero__button-outline {
     display: block;
-    min-width: 22.86rem;
+    width: 100%;
     margin-bottom: 1.85rem; } }
 
 @media screen and (max-height: 520px) {
